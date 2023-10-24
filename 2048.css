@@ -1,0 +1,131 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-image: url("bg7.jpg");
+    background-size: cover;
+}
+#heading{
+    color: darkgoldenrod ;
+    font-weight: bolder;
+    font-style: italic;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600px;
+    color: burlywood;
+}
+h2{
+    color: aliceblue;
+}
+h3{
+    font-style: oblique;
+    color: aliceblue;
+    
+}
+hr{
+    width: 900px ;
+    color: bisque;
+}
+#board{
+    width: 400px;
+    height: 400px;
+
+    background-color: aliceblue;
+    border: 6px solid grey;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#restart-button {
+    background-color: red; 
+    color: white; 
+    font-weight: bold;
+    padding: 10px 10px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+#restart-button:hover {
+    background-color: darkred; 
+}
+.tile{
+    width:90px;
+    height:90px;
+    border: 5px solid grey;
+
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    border: 2px solid;
+}
+#guide{
+    border-right: 2px;
+    background-color: royalblue;
+}
+#guide2{
+    border: 2px;
+    background-color: rgb(252, 252, 117);
+}
+.x2{
+    background-color: beige;
+    color: darkgray;
+
+}
+.x4{
+    background-color: #ece0ca;
+    color: #727371;
+}
+.x8{
+    background-color: lightsalmon;
+    color: aliceblue;
+}
+.x16{
+    background-color: rgba(175, 235, 26, 0.845);
+    color: lightgoldenrodyellow;
+}
+.x32{
+    background-color: rgb(230, 230, 27);
+    color: aliceblue;
+}
+.x64{
+    background-color: rgb(248, 166, 1);
+    color: rgb(203, 220, 224);
+}
+.x128{
+    background-color: rgb(253, 201, 97);
+    color: rgb(137, 125, 139);
+}
+.x256{
+    background-color: rgb(219, 116, 75);
+    color: aliceblue;  
+}
+.x512{
+    background-color: rgb(165, 178, 21);
+    color: rgb(248, 248, 248);
+}
+.x1024{
+    background-color: rgb(58, 211, 191);
+    color: aliceblue;
+}
+.x2048{
+    background-color: rgb(252, 81, 81);
+    color: aliceblue;
+}
+.x4096{
+    background-color: rgb(188, 42, 105);
+    color: rgb(7, 13, 18);
+}
+.x8192{
+    background-color: lightsalmon;
+    color: aliceblue;
+}
+
